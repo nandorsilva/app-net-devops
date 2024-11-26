@@ -4,4 +4,4 @@ import pytest
 def test_get_aluno(api_client):
     response = api_client.get("/aluno/")
     assert response.status_code == 200
-    assert response.json() == "Olá alunos."
+    assert response.json() == "Olá alunos"
