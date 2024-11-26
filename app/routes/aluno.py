@@ -6,7 +6,7 @@ from app.models.aluno import AlunoResponse, AlunoRequest
 
 
 ALUNOS = [
-    {"id": 1, "nome": "Pedro", "idade": 10, "email": "pedro@gmail.com", "senha": "1234"},
+    {"id": 1, "nome": "Pedro.", "idade": 10, "email": "pedro@gmail.com", "senha": "1234"},
     {"id": 2, "nome": "Paulo", "idade": 20, "email": "paulo@gmail.com", "senha": "1234"},
     {"id": 3, "nome": "Gabriel", "idade": 35, "email": "gabriel@gmail.com", "senha": "1234"},
     {"id": 4, "nome": "Maria", "idade": 18, "email":"maria@gmail.com", "senha": "1234"}
